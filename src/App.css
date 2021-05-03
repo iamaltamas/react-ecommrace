@@ -14,7 +14,7 @@
  body{
   font-family: 'Lato', sans-serif;
  }
-
+/* Navbar style */
  nav{
    width: 100%;
    height: 70px;
@@ -64,9 +64,59 @@ nav ul a{
   line-height: 35px;
   text-align: center;
   font-size: 12px;
+}
 
+/* Helpers */
+.container{
+
+  width: 100%;
+  padding: 0 100px;
+}
+
+/* Bannar style */
+header{
+  width: 100%;
+  background: url("./assest/background1.jpg");
+  height: 250px;
+  margin-top: 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.headerText{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 
 }
+
+.headerText h1{
+  font-size: 35px;
+
+}
+
+.headerText p{
+  margin-top: 7px;
+  margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

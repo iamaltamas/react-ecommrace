@@ -16,11 +16,8 @@ const Navbar = () =>{
                 <span className="cardCount">0 </span></span>
                 </a></li>
         </ul>
-        <div>
-            <h1>altamas</h1>
-        </div>
     </nav>
     )
-}
+} 
 
 export default Navbar;
