@@ -4,7 +4,7 @@ import Reacte from "react"
  const Banner = () =>{
 
     return(
-     <div className="container">
+     
         <header>
             <div className="headerText">
                 <div>
@@ -13,7 +13,7 @@ import Reacte from "react"
             </div>
             </div>
         </header>
-        </div>
+        
     )
  }
 
