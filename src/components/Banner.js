@@ -10,7 +10,7 @@ import Reacte from "react"
                 <div>
             <h1>Enjoy online shopping with india</h1>
             
-            </div>
+           </div>
             </div>
         </header>
         
