@@ -8,8 +8,8 @@ import Reacte from "react"
         <header>
             <div className="headerText">
                 <div>
-            <h1>Eid ke rung apno ke sang</h1>
-            <p>Enjoy online shopping with india</p>
+            <h1>Enjoy online shopping with india</h1>
+            
             </div>
             </div>
         </header>

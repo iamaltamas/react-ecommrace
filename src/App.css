@@ -179,8 +179,27 @@ margin: 12px 0;
 .not-found{
   margin-top: 100px;
 }
+/* cart style */
+ .cart-container{
+  width: 100%;
+  margin-top: 100%;
+  padding: 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+ .cart-details{
+   width: 75%;
+   border: 1px solid #fafafa;
+   border-radius: 5px;
 
-
+ }
+ .cart{
+   display: flex;
+   align-items: center;
+   background: var(--whiteColor);
+   padding: 15px 20px;
+ }
 
 
 

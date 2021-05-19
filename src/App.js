@@ -6,10 +6,13 @@ import NotFound from './components/NotFound';
 import ProductContextProvider from "./Golbal/ProductContext"
 import Products from "./components/Products"
 import Cart from './components/Cart';
+import CartContextProvider from "./Golbal/CartContext"
+
 function App() {
   return (
     <div>
        < ProductContextProvider>
+       <CartContextProvider>
        <Router>
        <Navbar/>
        
@@ -19,6 +22,7 @@ function App() {
            <Route component={NotFound}/>
          </Switch>
        </Router>
+       </CartContextProvider>
        </ProductContextProvider>
     </div>
   );
